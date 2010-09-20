@@ -1,0 +1,1037 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		072D9D350FD69AB300DC0264 /* CreateSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 072D9D380FD69AD100DC0264 /* Build configuration list for PBXAggregateTarget "CreateSDK" */;
+			buildPhases = (
+				072D9D340FD69AB300DC0264 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = CreateSDK;
+			productName = Untitled;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0701725C0FD4782900951C2B /* GLTestImageBatchView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0701725B0FD4782900951C2B /* GLTestImageBatchView.mm */; };
+		070172830FD4823300951C2B /* TestImageStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 070172820FD4823300951C2B /* TestImageStar.png */; };
+		07449B95117E01910095DF66 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07449B94117E01910095DF66 /* QuartzCore.framework */; };
+		077193520FF3C6450013870A /* GLBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 077193500FF3C6450013870A /* GLBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077193530FF3C6450013870A /* GLBackground.mm in Sources */ = {isa = PBXBuildFile; fileRef = 077193510FF3C6450013870A /* GLBackground.mm */; };
+		077193540FF3C6450013870A /* GLBackground.mm in Sources */ = {isa = PBXBuildFile; fileRef = 077193510FF3C6450013870A /* GLBackground.mm */; };
+		077194B30FF3E98F0013870A /* GLTestCameraView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 077194B20FF3E98F0013870A /* GLTestCameraView.mm */; };
+		077195E80FF427400013870A /* GLCombindedVert.h in Headers */ = {isa = PBXBuildFile; fileRef = 0771934C0FF3BD3B0013870A /* GLCombindedVert.h */; settings = {ATTRIBUTES = (); }; };
+		077196990FF4D8D80013870A /* GLEngineLayerTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 077196980FF4D8D80013870A /* GLEngineLayerTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077198100FF518B10013870A /* TestTarget.png in Resources */ = {isa = PBXBuildFile; fileRef = 0771980F0FF518B10013870A /* TestTarget.png */; };
+		077198120FF518C40013870A /* TestSpot.png in Resources */ = {isa = PBXBuildFile; fileRef = 077198110FF518C40013870A /* TestSpot.png */; };
+		077198230FF52E610013870A /* GLImageBatchPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 077198200FF52E610013870A /* GLImageBatchPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0771982D0FF53BF80013870A /* GLColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 0771982C0FF53BF80013870A /* GLColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07719CA21000C1C30013870A /* GLObjectHierarchy.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07719CA11000C1C30013870A /* GLObjectHierarchy.mm */; };
+		07719CA31000C1C30013870A /* GLObjectHierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 07719CA01000C1C30013870A /* GLObjectHierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07719CA41000C1C30013870A /* GLObjectHierarchy.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07719CA11000C1C30013870A /* GLObjectHierarchy.mm */; };
+		07719D111000FFFC0013870A /* GLTestHierarchyView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07719D101000FFFC0013870A /* GLTestHierarchyView.mm */; };
+		07719EC210036A520013870A /* GLTestWorldScaleView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07719EC110036A520013870A /* GLTestWorldScaleView.mm */; };
+		0771D20B0FD03B4800973211 /* GLTestBackgroundView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0771D20A0FD03B4800973211 /* GLTestBackgroundView.mm */; };
+		0771D2170FD0451D00973211 /* TestBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0771D2160FD0451D00973211 /* TestBackground.png */; };
+		07840C9E0FE809F900D99242 /* GLEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE5153A0F9E832100A34897 /* GLEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07840C9F0FE809F900D99242 /* GLEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE5153B0F9E832100A34897 /* GLEngine.mm */; };
+		07840CA00FE809F900D99242 /* GLRender.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE5153C0F9E832100A34897 /* GLRender.h */; settings = {ATTRIBUTES = (); }; };
+		07840CA10FE809F900D99242 /* GLRender.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE5153D0F9E832100A34897 /* GLRender.mm */; };
+		07840CA20FE809F900D99242 /* GLTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE515310F9E831200A34897 /* GLTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07840CA30FE809F900D99242 /* GLTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515320F9E831200A34897 /* GLTexture.mm */; };
+		07840CA40FE809F900D99242 /* GLTextureSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE515330F9E831200A34897 /* GLTextureSprite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07840CA50FE809F900D99242 /* GLTextureSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515340F9E831200A34897 /* GLTextureSprite.mm */; };
+		07840CA60FE809F900D99242 /* GLTextureBank.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE515350F9E831200A34897 /* GLTextureBank.h */; settings = {ATTRIBUTES = (); }; };
+		07840CA70FE809F900D99242 /* GLTextureBank.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515360F9E831200A34897 /* GLTextureBank.mm */; };
+		07840CA80FE809F900D99242 /* GLObjectTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A3B6BF0FD6CFAD0037193E /* GLObjectTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07840CA90FE809F900D99242 /* GLObject.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE515460F9E834200A34897 /* GLObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07840CAA0FE809F900D99242 /* GLObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515470F9E834200A34897 /* GLObject.mm */; };
+		07840CAB0FE809F900D99242 /* GLImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE515480F9E834200A34897 /* GLImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07840CAC0FE809F900D99242 /* GLImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515490F9E834200A34897 /* GLImage.mm */; };
+		07840CAD0FE809F900D99242 /* GLSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE5154A0F9E834200A34897 /* GLSprite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07840CAE0FE809F900D99242 /* GLSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE5154B0F9E834200A34897 /* GLSprite.mm */; };
+		07840CAF0FE809F900D99242 /* GLLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE5154C0F9E834200A34897 /* GLLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07840CB00FE809F900D99242 /* GLLabel.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE5154D0F9E834200A34897 /* GLLabel.mm */; };
+		07840CB10FE809F900D99242 /* GLImageBatch.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2980B60FA21FD000982D8E /* GLImageBatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07840CB20FE809F900D99242 /* GLImageBatch.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC2980B70FA21FD000982D8E /* GLImageBatch.mm */; };
+		07840CB30FE809F900D99242 /* GLSpriteBatch.h in Headers */ = {isa = PBXBuildFile; fileRef = CCBFF06B0FD5409900CB41AD /* GLSpriteBatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07840CB40FE809F900D99242 /* GLSpriteBatch.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCBFF06C0FD5409900CB41AD /* GLSpriteBatch.mm */; };
+		07840CB50FE809F900D99242 /* GLFPS.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE515430F9E833700A34897 /* GLFPS.h */; settings = {ATTRIBUTES = (); }; };
+		07840CB60FE809F900D99242 /* GLFPS.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515440F9E833700A34897 /* GLFPS.mm */; };
+		07840CB70FE809F900D99242 /* UIColor-Expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE515400F9E832E00A34897 /* UIColor-Expanded.h */; settings = {ATTRIBUTES = (); }; };
+		07840CB80FE809F900D99242 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE515410F9E832E00A34897 /* UIColor-Expanded.m */; };
+		07840CB90FE809F900D99242 /* GLColor.h in Headers */ = {isa = PBXBuildFile; fileRef = CC29801C0F9F722300982D8E /* GLColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07840CBA0FE809F900D99242 /* GLColor.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC29801D0F9F722300982D8E /* GLColor.mm */; };
+		07840CBB0FE809F900D99242 /* Maths.h in Headers */ = {isa = PBXBuildFile; fileRef = CC453A990FCD637F00F8FCDC /* Maths.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07840CBC0FE809F900D99242 /* Maths.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC453A9A0FCD637F00F8FCDC /* Maths.mm */; };
+		07840CBD0FE809F900D99242 /* GLView.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE515000F9E815900A34897 /* GLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07840CBE0FE809F900D99242 /* GLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515010F9E815900A34897 /* GLView.mm */; };
+		07840D800FE80B3400D99242 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE515690F9E84D700A34897 /* CoreGraphics.framework */; };
+		07840D820FE80B3400D99242 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
+		07840D830FE80B3400D99242 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		07840D840FE80B3400D99242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		07840DB60FE8267600D99242 /* Electric2D.h in Headers */ = {isa = PBXBuildFile; fileRef = 07840DB50FE8267600D99242 /* Electric2D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		078B7E82108753AB0090ACE2 /* GLModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 078B7E81108753AB0090ACE2 /* GLModel.mm */; };
+		078B7F2D10877F3A0090ACE2 /* GLVert.h in Headers */ = {isa = PBXBuildFile; fileRef = 078B7F1110877D230090ACE2 /* GLVert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		078B7F2E10877F550090ACE2 /* GLModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 078B7E80108753AB0090ACE2 /* GLModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		078B7F2F10877F5B0090ACE2 /* GLModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 078B7E81108753AB0090ACE2 /* GLModel.mm */; };
+		078B7F36108785170090ACE2 /* GLTestModelView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 078B7F35108785170090ACE2 /* GLTestModelView.mm */; };
+		078B81CC1088BF280090ACE2 /* EasyEnemyPVR_4x4_32.sprite in Resources */ = {isa = PBXBuildFile; fileRef = 078B81CB1088BF280090ACE2 /* EasyEnemyPVR_4x4_32.sprite */; };
+		078CCB3C1124946900F68C40 /* ObjectPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 078CCAF711248EE600F68C40 /* ObjectPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07A394941088E3EF00B96A5C /* PVR_Perceptual_m_4.pvr in Resources */ = {isa = PBXBuildFile; fileRef = 07A3948C1088E3EF00B96A5C /* PVR_Perceptual_m_4.pvr */; };
+		07A394951088E3EF00B96A5C /* PVR_Perceptual_2.pvr in Resources */ = {isa = PBXBuildFile; fileRef = 07A3948D1088E3EF00B96A5C /* PVR_Perceptual_2.pvr */; };
+		07A394961088E3EF00B96A5C /* PVR_Perceptual_4.pvr in Resources */ = {isa = PBXBuildFile; fileRef = 07A3948E1088E3EF00B96A5C /* PVR_Perceptual_4.pvr */; };
+		07A394971088E3EF00B96A5C /* PVR_Linear_2.pvr in Resources */ = {isa = PBXBuildFile; fileRef = 07A3948F1088E3EF00B96A5C /* PVR_Linear_2.pvr */; };
+		07A394981088E3EF00B96A5C /* PVR_Linear_m_4.pvr in Resources */ = {isa = PBXBuildFile; fileRef = 07A394901088E3EF00B96A5C /* PVR_Linear_m_4.pvr */; };
+		07A394991088E3EF00B96A5C /* PVR_Linear_m_2.pvr in Resources */ = {isa = PBXBuildFile; fileRef = 07A394911088E3EF00B96A5C /* PVR_Linear_m_2.pvr */; };
+		07A3949A1088E3EF00B96A5C /* PVR_Linear_4.pvr in Resources */ = {isa = PBXBuildFile; fileRef = 07A394921088E3EF00B96A5C /* PVR_Linear_4.pvr */; };
+		07A3949B1088E3EF00B96A5C /* PVR_Perceptual_m_2.pvr in Resources */ = {isa = PBXBuildFile; fileRef = 07A394931088E3EF00B96A5C /* PVR_Perceptual_m_2.pvr */; };
+		07A394AF1088E90000B96A5C /* GLBasicTextureLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 07AE1AAC1088853F0080982B /* GLBasicTextureLoader.h */; };
+		07A394B01088E90600B96A5C /* GLPVRTextureLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 07AE1AAF1088878F0080982B /* GLPVRTextureLoader.h */; };
+		07A394B11088E90C00B96A5C /* GLBasicTextureLoader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07AE1AAD1088853F0080982B /* GLBasicTextureLoader.mm */; };
+		07A394B21088E91200B96A5C /* GLPVRTextureLoader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07AE1AB01088878F0080982B /* GLPVRTextureLoader.mm */; };
+		07AE1AAE1088853F0080982B /* GLBasicTextureLoader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07AE1AAD1088853F0080982B /* GLBasicTextureLoader.mm */; };
+		07AE1AB11088878F0080982B /* GLPVRTextureLoader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07AE1AB01088878F0080982B /* GLPVRTextureLoader.mm */; };
+		07AE1B841088A8E30080982B /* TestImagePVR.pvr in Resources */ = {isa = PBXBuildFile; fileRef = 07AE1B831088A8E30080982B /* TestImagePVR.pvr */; };
+		07D6ACF00FF383330056AA3E /* GLCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07D6ACEF0FF383330056AA3E /* GLCamera.mm */; };
+		07D6ACF10FF383330056AA3E /* GLCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D6ACEE0FF383330056AA3E /* GLCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07D6ACF20FF383330056AA3E /* GLCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07D6ACEF0FF383330056AA3E /* GLCamera.mm */; };
+		1D3623260D0F684500981E51 /* Electric2DAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Electric2DAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
+		CC196B0C0FA765AF00978FF9 /* GLTestImagesView.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC196B0B0FA765AF00978FF9 /* GLTestImagesView.mm */; };
+		CC196B0F0FA765DC00978FF9 /* GLTestSpritesView.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC196B0E0FA765DC00978FF9 /* GLTestSpritesView.mm */; };
+		CC196B120FA765F100978FF9 /* GLTestLabelsView.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC196B110FA765F100978FF9 /* GLTestLabelsView.mm */; };
+		CC29801E0F9F722300982D8E /* GLColor.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC29801D0F9F722300982D8E /* GLColor.mm */; };
+		CC2980B80FA21FD000982D8E /* GLImageBatch.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC2980B70FA21FD000982D8E /* GLImageBatch.mm */; };
+		CC2982A90FA73D3D00982D8E /* Electric2DViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC2982A80FA73D3D00982D8E /* Electric2DViewController.mm */; };
+		CC363140100B8FC000F560B8 /* EasyEnemy_4x4_32_Array.sprite in Resources */ = {isa = PBXBuildFile; fileRef = CC36313F100B8FC000F560B8 /* EasyEnemy_4x4_32_Array.sprite */; };
+		CC3C620B100B968D00CDE4D5 /* EasyEnemy_4x4_32.sprite in Resources */ = {isa = PBXBuildFile; fileRef = CC52A7690FFA586A00D9B81D /* EasyEnemy_4x4_32.sprite */; };
+		CC453A9B0FCD637F00F8FCDC /* Maths.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC453A9A0FCD637F00F8FCDC /* Maths.mm */; };
+		CC52A5C80FF8EDB800D9B81D /* GLRenderBatch.h in Headers */ = {isa = PBXBuildFile; fileRef = CC52A5C60FF8EDB800D9B81D /* GLRenderBatch.h */; };
+		CC52A5C90FF8EDB800D9B81D /* GLRenderBatch.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC52A5C70FF8EDB800D9B81D /* GLRenderBatch.mm */; };
+		CC52A5CA0FF8EDB800D9B81D /* GLRenderBatch.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC52A5C70FF8EDB800D9B81D /* GLRenderBatch.mm */; };
+		CC52A7300FFA553200D9B81D /* EasyEnemy.png in Resources */ = {isa = PBXBuildFile; fileRef = CC52A72F0FFA553200D9B81D /* EasyEnemy.png */; };
+		CC52A84A0FFA706E00D9B81D /* GLSpriteBatchPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = CC52A8470FFA706E00D9B81D /* GLSpriteBatchPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC89377310020A7D000B4A09 /* GLLine.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC89377210020A7D000B4A09 /* GLLine.mm */; };
+		CC89377410020A7D000B4A09 /* GLLine.h in Headers */ = {isa = PBXBuildFile; fileRef = CC89377110020A7D000B4A09 /* GLLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC89377510020A7D000B4A09 /* GLLine.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC89377210020A7D000B4A09 /* GLLine.mm */; };
+		CC89382410023AAF000B4A09 /* GLTestLineView.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC89382310023AAF000B4A09 /* GLTestLineView.mm */; };
+		CCBFF06D0FD5409900CB41AD /* GLSpriteBatch.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCBFF06C0FD5409900CB41AD /* GLSpriteBatch.mm */; };
+		CCBFF0930FD5667D00CB41AD /* TestSpriteSquare_4x4_32.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBFF0920FD5667D00CB41AD /* TestSpriteSquare_4x4_32.png */; };
+		CCBFF0A10FD5696500CB41AD /* GLTestSpriteBatchView.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCBFF0A00FD5696500CB41AD /* GLTestSpriteBatchView.mm */; };
+		CCBFF1390FD56E3700CB41AD /* TestSpriteSquare_4x4_32.sprite in Resources */ = {isa = PBXBuildFile; fileRef = CCBFF0940FD566BB00CB41AD /* TestSpriteSquare_4x4_32.sprite */; };
+		CCE514CE0F9E7E9C00A34897 /* GLTestGeneralView.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE514CD0F9E7E9C00A34897 /* GLTestGeneralView.mm */; };
+		CCE515020F9E815900A34897 /* GLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515010F9E815900A34897 /* GLView.mm */; };
+		CCE515370F9E831200A34897 /* GLTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515320F9E831200A34897 /* GLTexture.mm */; };
+		CCE515380F9E831200A34897 /* GLTextureSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515340F9E831200A34897 /* GLTextureSprite.mm */; };
+		CCE515390F9E831200A34897 /* GLTextureBank.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515360F9E831200A34897 /* GLTextureBank.mm */; };
+		CCE5153E0F9E832100A34897 /* GLEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE5153B0F9E832100A34897 /* GLEngine.mm */; };
+		CCE5153F0F9E832100A34897 /* GLRender.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE5153D0F9E832100A34897 /* GLRender.mm */; };
+		CCE515420F9E832E00A34897 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE515410F9E832E00A34897 /* UIColor-Expanded.m */; };
+		CCE515450F9E833700A34897 /* GLFPS.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515440F9E833700A34897 /* GLFPS.mm */; };
+		CCE5154E0F9E834200A34897 /* GLObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515470F9E834200A34897 /* GLObject.mm */; };
+		CCE5154F0F9E834200A34897 /* GLImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515490F9E834200A34897 /* GLImage.mm */; };
+		CCE515500F9E834200A34897 /* GLSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE5154B0F9E834200A34897 /* GLSprite.mm */; };
+		CCE515510F9E834200A34897 /* GLLabel.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE5154D0F9E834200A34897 /* GLLabel.mm */; };
+		CCE5156A0F9E84D700A34897 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE515690F9E84D700A34897 /* CoreGraphics.framework */; };
+		CCE515D00F9E861200A34897 /* TestSprite_4x4_64.sprite in Resources */ = {isa = PBXBuildFile; fileRef = CCE515CC0F9E861100A34897 /* TestSprite_4x4_64.sprite */; };
+		CCE515D10F9E861200A34897 /* TestSprite_4x4_64.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE515CD0F9E861200A34897 /* TestSprite_4x4_64.png */; };
+		CCE515D20F9E861200A34897 /* TestImageNoAlpha.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE515CE0F9E861200A34897 /* TestImageNoAlpha.png */; };
+		CCE515D30F9E861200A34897 /* TestImageAlpha.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE515CF0F9E861200A34897 /* TestImageAlpha.png */; };
+		CCE516410F9E8D2500A34897 /* Electric2D_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE516400F9E8D2500A34897 /* Electric2D_icon.png */; };
+		CCE516450F9E8D8A00A34897 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE516440F9E8D8A00A34897 /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0701725A0FD4782900951C2B /* GLTestImageBatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTestImageBatchView.h; sourceTree = "<group>"; };
+		0701725B0FD4782900951C2B /* GLTestImageBatchView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLTestImageBatchView.mm; sourceTree = "<group>"; };
+		070172820FD4823300951C2B /* TestImageStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestImageStar.png; sourceTree = "<group>"; };
+		072D9D550FD69DEB00DC0264 /* CreateSDK.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = CreateSDK.sh; sourceTree = "<group>"; };
+		072D9D5C0FD69F6F00DC0264 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		072D9D5D0FD69F6F00DC0264 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		072D9D5E0FD69F6F00DC0264 /* Install.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Install.rtf; sourceTree = "<group>"; };
+		072D9D5F0FD69F6F00DC0264 /* Changes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Changes.rtf; sourceTree = "<group>"; };
+		07449B94117E01910095DF66 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0771934C0FF3BD3B0013870A /* GLCombindedVert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCombindedVert.h; sourceTree = "<group>"; };
+		077193500FF3C6450013870A /* GLBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBackground.h; sourceTree = "<group>"; };
+		077193510FF3C6450013870A /* GLBackground.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLBackground.mm; sourceTree = "<group>"; };
+		077194B10FF3E98F0013870A /* GLTestCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTestCameraView.h; sourceTree = "<group>"; };
+		077194B20FF3E98F0013870A /* GLTestCameraView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLTestCameraView.mm; sourceTree = "<group>"; };
+		077196980FF4D8D80013870A /* GLEngineLayerTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLEngineLayerTypes.h; sourceTree = "<group>"; };
+		0771980F0FF518B10013870A /* TestTarget.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestTarget.png; sourceTree = "<group>"; };
+		077198110FF518C40013870A /* TestSpot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestSpot.png; sourceTree = "<group>"; };
+		077198200FF52E610013870A /* GLImageBatchPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLImageBatchPoint.h; sourceTree = "<group>"; };
+		0771982C0FF53BF80013870A /* GLColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLColors.h; sourceTree = "<group>"; };
+		07719CA01000C1C30013870A /* GLObjectHierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLObjectHierarchy.h; sourceTree = "<group>"; };
+		07719CA11000C1C30013870A /* GLObjectHierarchy.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLObjectHierarchy.mm; sourceTree = "<group>"; };
+		07719D0F1000FFFC0013870A /* GLTestHierarchyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTestHierarchyView.h; sourceTree = "<group>"; };
+		07719D101000FFFC0013870A /* GLTestHierarchyView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLTestHierarchyView.mm; sourceTree = "<group>"; };
+		07719EC010036A520013870A /* GLTestWorldScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTestWorldScaleView.h; sourceTree = "<group>"; };
+		07719EC110036A520013870A /* GLTestWorldScaleView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLTestWorldScaleView.mm; sourceTree = "<group>"; };
+		0771D2090FD03B4800973211 /* GLTestBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTestBackgroundView.h; sourceTree = "<group>"; };
+		0771D20A0FD03B4800973211 /* GLTestBackgroundView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLTestBackgroundView.mm; sourceTree = "<group>"; };
+		0771D2160FD0451D00973211 /* TestBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestBackground.png; sourceTree = "<group>"; };
+		07840C760FE8099000D99242 /* libElectric2D.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libElectric2D.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		07840DB50FE8267600D99242 /* Electric2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Electric2D.h; sourceTree = "<group>"; };
+		078B7E80108753AB0090ACE2 /* GLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLModel.h; sourceTree = "<group>"; };
+		078B7E81108753AB0090ACE2 /* GLModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLModel.mm; sourceTree = "<group>"; };
+		078B7F1110877D230090ACE2 /* GLVert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLVert.h; sourceTree = "<group>"; };
+		078B7F34108785170090ACE2 /* GLTestModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTestModelView.h; sourceTree = "<group>"; };
+		078B7F35108785170090ACE2 /* GLTestModelView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLTestModelView.mm; sourceTree = "<group>"; };
+		078B81CB1088BF280090ACE2 /* EasyEnemyPVR_4x4_32.sprite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = EasyEnemyPVR_4x4_32.sprite; sourceTree = "<group>"; };
+		078CCAF711248EE600F68C40 /* ObjectPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectPool.h; sourceTree = "<group>"; };
+		07A3948C1088E3EF00B96A5C /* PVR_Perceptual_m_4.pvr */ = {isa = PBXFileReference; lastKnownFileType = file; path = PVR_Perceptual_m_4.pvr; sourceTree = "<group>"; };
+		07A3948D1088E3EF00B96A5C /* PVR_Perceptual_2.pvr */ = {isa = PBXFileReference; lastKnownFileType = file; path = PVR_Perceptual_2.pvr; sourceTree = "<group>"; };
+		07A3948E1088E3EF00B96A5C /* PVR_Perceptual_4.pvr */ = {isa = PBXFileReference; lastKnownFileType = file; path = PVR_Perceptual_4.pvr; sourceTree = "<group>"; };
+		07A3948F1088E3EF00B96A5C /* PVR_Linear_2.pvr */ = {isa = PBXFileReference; lastKnownFileType = file; path = PVR_Linear_2.pvr; sourceTree = "<group>"; };
+		07A394901088E3EF00B96A5C /* PVR_Linear_m_4.pvr */ = {isa = PBXFileReference; lastKnownFileType = file; path = PVR_Linear_m_4.pvr; sourceTree = "<group>"; };
+		07A394911088E3EF00B96A5C /* PVR_Linear_m_2.pvr */ = {isa = PBXFileReference; lastKnownFileType = file; path = PVR_Linear_m_2.pvr; sourceTree = "<group>"; };
+		07A394921088E3EF00B96A5C /* PVR_Linear_4.pvr */ = {isa = PBXFileReference; lastKnownFileType = file; path = PVR_Linear_4.pvr; sourceTree = "<group>"; };
+		07A394931088E3EF00B96A5C /* PVR_Perceptual_m_2.pvr */ = {isa = PBXFileReference; lastKnownFileType = file; path = PVR_Perceptual_m_2.pvr; sourceTree = "<group>"; };
+		07A3B6BF0FD6CFAD0037193E /* GLObjectTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLObjectTypes.h; sourceTree = "<group>"; };
+		07AE1AAC1088853F0080982B /* GLBasicTextureLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBasicTextureLoader.h; sourceTree = "<group>"; };
+		07AE1AAD1088853F0080982B /* GLBasicTextureLoader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLBasicTextureLoader.mm; sourceTree = "<group>"; };
+		07AE1AAF1088878F0080982B /* GLPVRTextureLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLPVRTextureLoader.h; sourceTree = "<group>"; };
+		07AE1AB01088878F0080982B /* GLPVRTextureLoader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLPVRTextureLoader.mm; sourceTree = "<group>"; };
+		07AE1B831088A8E30080982B /* TestImagePVR.pvr */ = {isa = PBXFileReference; lastKnownFileType = file; path = TestImagePVR.pvr; sourceTree = "<group>"; };
+		07D6ACEE0FF383330056AA3E /* GLCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCamera.h; sourceTree = "<group>"; };
+		07D6ACEF0FF383330056AA3E /* GLCamera.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLCamera.mm; sourceTree = "<group>"; };
+		07E07E070FE8FC1200AB6C86 /* SDKSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SDKSettings.plist; path = Resources/iphoneos.sdk/SDKSettings.plist; sourceTree = "<group>"; };
+		07E07E080FE8FC2400AB6C86 /* SDKSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SDKSettings.plist; path = Resources/iphonesimulator.sdk/SDKSettings.plist; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Electric2DAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Electric2DAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Electric2DAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Electric2DAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Electric2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Electric2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Electric2D_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Electric2D_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC196B0A0FA765AF00978FF9 /* GLTestImagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTestImagesView.h; sourceTree = "<group>"; };
+		CC196B0B0FA765AF00978FF9 /* GLTestImagesView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLTestImagesView.mm; sourceTree = "<group>"; };
+		CC196B0D0FA765DC00978FF9 /* GLTestSpritesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTestSpritesView.h; sourceTree = "<group>"; };
+		CC196B0E0FA765DC00978FF9 /* GLTestSpritesView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLTestSpritesView.mm; sourceTree = "<group>"; };
+		CC196B100FA765F100978FF9 /* GLTestLabelsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTestLabelsView.h; sourceTree = "<group>"; };
+		CC196B110FA765F100978FF9 /* GLTestLabelsView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLTestLabelsView.mm; sourceTree = "<group>"; };
+		CC29801C0F9F722300982D8E /* GLColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLColor.h; sourceTree = "<group>"; };
+		CC29801D0F9F722300982D8E /* GLColor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLColor.mm; sourceTree = "<group>"; };
+		CC2980B60FA21FD000982D8E /* GLImageBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLImageBatch.h; sourceTree = "<group>"; };
+		CC2980B70FA21FD000982D8E /* GLImageBatch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLImageBatch.mm; sourceTree = "<group>"; };
+		CC2982A70FA73D3D00982D8E /* Electric2DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Electric2DViewController.h; sourceTree = "<group>"; };
+		CC2982A80FA73D3D00982D8E /* Electric2DViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Electric2DViewController.mm; sourceTree = "<group>"; };
+		CC36313F100B8FC000F560B8 /* EasyEnemy_4x4_32_Array.sprite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = EasyEnemy_4x4_32_Array.sprite; sourceTree = "<group>"; };
+		CC453A990FCD637F00F8FCDC /* Maths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maths.h; sourceTree = "<group>"; };
+		CC453A9A0FCD637F00F8FCDC /* Maths.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Maths.mm; sourceTree = "<group>"; };
+		CC52A5C60FF8EDB800D9B81D /* GLRenderBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLRenderBatch.h; sourceTree = "<group>"; };
+		CC52A5C70FF8EDB800D9B81D /* GLRenderBatch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLRenderBatch.mm; sourceTree = "<group>"; };
+		CC52A72F0FFA553200D9B81D /* EasyEnemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EasyEnemy.png; sourceTree = "<group>"; };
+		CC52A7690FFA586A00D9B81D /* EasyEnemy_4x4_32.sprite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = EasyEnemy_4x4_32.sprite; sourceTree = "<group>"; };
+		CC52A8470FFA706E00D9B81D /* GLSpriteBatchPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSpriteBatchPoint.h; sourceTree = "<group>"; };
+		CC89377110020A7D000B4A09 /* GLLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLine.h; sourceTree = "<group>"; };
+		CC89377210020A7D000B4A09 /* GLLine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLLine.mm; sourceTree = "<group>"; };
+		CC89382210023AAF000B4A09 /* GLTestLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTestLineView.h; sourceTree = "<group>"; };
+		CC89382310023AAF000B4A09 /* GLTestLineView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLTestLineView.mm; sourceTree = "<group>"; };
+		CCBFF06B0FD5409900CB41AD /* GLSpriteBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSpriteBatch.h; sourceTree = "<group>"; };
+		CCBFF06C0FD5409900CB41AD /* GLSpriteBatch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLSpriteBatch.mm; sourceTree = "<group>"; };
+		CCBFF0920FD5667D00CB41AD /* TestSpriteSquare_4x4_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestSpriteSquare_4x4_32.png; sourceTree = "<group>"; };
+		CCBFF0940FD566BB00CB41AD /* TestSpriteSquare_4x4_32.sprite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestSpriteSquare_4x4_32.sprite; sourceTree = "<group>"; };
+		CCBFF09F0FD5696500CB41AD /* GLTestSpriteBatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTestSpriteBatchView.h; sourceTree = "<group>"; };
+		CCBFF0A00FD5696500CB41AD /* GLTestSpriteBatchView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLTestSpriteBatchView.mm; sourceTree = "<group>"; };
+		CCE514CC0F9E7E9C00A34897 /* GLTestGeneralView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTestGeneralView.h; sourceTree = "<group>"; };
+		CCE514CD0F9E7E9C00A34897 /* GLTestGeneralView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLTestGeneralView.mm; sourceTree = "<group>"; };
+		CCE515000F9E815900A34897 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		CCE515010F9E815900A34897 /* GLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLView.mm; sourceTree = "<group>"; };
+		CCE515310F9E831200A34897 /* GLTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTexture.h; sourceTree = "<group>"; };
+		CCE515320F9E831200A34897 /* GLTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLTexture.mm; sourceTree = "<group>"; };
+		CCE515330F9E831200A34897 /* GLTextureSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTextureSprite.h; sourceTree = "<group>"; };
+		CCE515340F9E831200A34897 /* GLTextureSprite.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLTextureSprite.mm; sourceTree = "<group>"; };
+		CCE515350F9E831200A34897 /* GLTextureBank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTextureBank.h; sourceTree = "<group>"; };
+		CCE515360F9E831200A34897 /* GLTextureBank.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLTextureBank.mm; sourceTree = "<group>"; };
+		CCE5153A0F9E832100A34897 /* GLEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLEngine.h; sourceTree = "<group>"; };
+		CCE5153B0F9E832100A34897 /* GLEngine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLEngine.mm; sourceTree = "<group>"; };
+		CCE5153C0F9E832100A34897 /* GLRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLRender.h; sourceTree = "<group>"; };
+		CCE5153D0F9E832100A34897 /* GLRender.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLRender.mm; sourceTree = "<group>"; };
+		CCE515400F9E832E00A34897 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		CCE515410F9E832E00A34897 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+		CCE515430F9E833700A34897 /* GLFPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFPS.h; sourceTree = "<group>"; };
+		CCE515440F9E833700A34897 /* GLFPS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLFPS.mm; sourceTree = "<group>"; };
+		CCE515460F9E834200A34897 /* GLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLObject.h; sourceTree = "<group>"; };
+		CCE515470F9E834200A34897 /* GLObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLObject.mm; sourceTree = "<group>"; };
+		CCE515480F9E834200A34897 /* GLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLImage.h; sourceTree = "<group>"; };
+		CCE515490F9E834200A34897 /* GLImage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLImage.mm; sourceTree = "<group>"; };
+		CCE5154A0F9E834200A34897 /* GLSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSprite.h; sourceTree = "<group>"; };
+		CCE5154B0F9E834200A34897 /* GLSprite.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLSprite.mm; sourceTree = "<group>"; };
+		CCE5154C0F9E834200A34897 /* GLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLabel.h; sourceTree = "<group>"; };
+		CCE5154D0F9E834200A34897 /* GLLabel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLLabel.mm; sourceTree = "<group>"; };
+		CCE515690F9E84D700A34897 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCE515CC0F9E861100A34897 /* TestSprite_4x4_64.sprite */ = {isa = PBXFileReference; explicitFileType = text.xml; fileEncoding = 4; path = TestSprite_4x4_64.sprite; sourceTree = "<group>"; };
+		CCE515CD0F9E861200A34897 /* TestSprite_4x4_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestSprite_4x4_64.png; sourceTree = "<group>"; };
+		CCE515CE0F9E861200A34897 /* TestImageNoAlpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestImageNoAlpha.png; sourceTree = "<group>"; };
+		CCE515CF0F9E861200A34897 /* TestImageAlpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestImageAlpha.png; sourceTree = "<group>"; };
+		CCE516400F9E8D2500A34897 /* Electric2D_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Electric2D_icon.png; sourceTree = "<group>"; };
+		CCE516440F9E8D8A00A34897 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07840C740FE8099000D99242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07840D800FE80B3400D99242 /* CoreGraphics.framework in Frameworks */,
+				07840D820FE80B3400D99242 /* OpenGLES.framework in Frameworks */,
+				07840D830FE80B3400D99242 /* UIKit.framework in Frameworks */,
+				07840D840FE80B3400D99242 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
+				CCE5156A0F9E84D700A34897 /* CoreGraphics.framework in Frameworks */,
+				07449B95117E01910095DF66 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072D9D540FD69D9B00DC0264 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				072D9D550FD69DEB00DC0264 /* CreateSDK.sh */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		072D9D590FD69F3300DC0264 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				072D9D5C0FD69F6F00DC0264 /* README */,
+				072D9D5D0FD69F6F00DC0264 /* Credits.rtf */,
+				072D9D5E0FD69F6F00DC0264 /* Install.rtf */,
+				072D9D5F0FD69F6F00DC0264 /* Changes.rtf */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		077193100FF3BC530013870A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CCE5153C0F9E832100A34897 /* GLRender.h */,
+				CCE5153D0F9E832100A34897 /* GLRender.mm */,
+				CC52A5C60FF8EDB800D9B81D /* GLRenderBatch.h */,
+				CC52A5C70FF8EDB800D9B81D /* GLRenderBatch.mm */,
+				0771934C0FF3BD3B0013870A /* GLCombindedVert.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		077198140FF52DF40013870A /* Batch */ = {
+			isa = PBXGroup;
+			children = (
+				CC2980B60FA21FD000982D8E /* GLImageBatch.h */,
+				CC2980B70FA21FD000982D8E /* GLImageBatch.mm */,
+				077198200FF52E610013870A /* GLImageBatchPoint.h */,
+				CCBFF06B0FD5409900CB41AD /* GLSpriteBatch.h */,
+				CCBFF06C0FD5409900CB41AD /* GLSpriteBatch.mm */,
+				CC52A8470FFA706E00D9B81D /* GLSpriteBatchPoint.h */,
+			);
+			path = Batch;
+			sourceTree = "<group>";
+		};
+		07AE1AAB108885080080982B /* Loaders */ = {
+			isa = PBXGroup;
+			children = (
+				07AE1AAC1088853F0080982B /* GLBasicTextureLoader.h */,
+				07AE1AAD1088853F0080982B /* GLBasicTextureLoader.mm */,
+				07AE1AAF1088878F0080982B /* GLPVRTextureLoader.h */,
+				07AE1AB01088878F0080982B /* GLPVRTextureLoader.mm */,
+			);
+			path = Loaders;
+			sourceTree = "<group>";
+		};
+		07E07E050FE8FBE200AB6C86 /* iphone.sdk */ = {
+			isa = PBXGroup;
+			children = (
+				07E07E070FE8FC1200AB6C86 /* SDKSettings.plist */,
+			);
+			name = iphone.sdk;
+			sourceTree = "<group>";
+		};
+		07E07E060FE8FBF000AB6C86 /* iphonesimulator.sdk */ = {
+			isa = PBXGroup;
+			children = (
+				07E07E080FE8FC2400AB6C86 /* SDKSettings.plist */,
+			);
+			name = iphonesimulator.sdk;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CCE514D00F9E7EDB00A34897 /* Electric2D */,
+				CCE514CB0F9E7E7800A34897 /* Test */,
+				1D3623240D0F684500981E51 /* Electric2DAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Electric2DAppDelegate.m */,
+				CC2982A70FA73D3D00982D8E /* Electric2DViewController.h */,
+				CC2982A80FA73D3D00982D8E /* Electric2DViewController.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Electric2D.app */,
+				07840C760FE8099000D99242 /* libElectric2D.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				CCE5158D0F9E85B000A34897 /* Data */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				072D9D590FD69F3300DC0264 /* Documents */,
+				072D9D540FD69D9B00DC0264 /* Scripts */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Electric2D_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07E07E050FE8FBE200AB6C86 /* iphone.sdk */,
+				07E07E060FE8FBF000AB6C86 /* iphonesimulator.sdk */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				CCE516440F9E8D8A00A34897 /* Default.png */,
+				CCE516400F9E8D2500A34897 /* Electric2D_icon.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCE515690F9E84D700A34897 /* CoreGraphics.framework */,
+				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				07449B94117E01910095DF66 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCE514CB0F9E7E7800A34897 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				CCE514CC0F9E7E9C00A34897 /* GLTestGeneralView.h */,
+				CCE514CD0F9E7E9C00A34897 /* GLTestGeneralView.mm */,
+				CC196B0A0FA765AF00978FF9 /* GLTestImagesView.h */,
+				CC196B0B0FA765AF00978FF9 /* GLTestImagesView.mm */,
+				0701725A0FD4782900951C2B /* GLTestImageBatchView.h */,
+				0701725B0FD4782900951C2B /* GLTestImageBatchView.mm */,
+				CC196B0D0FA765DC00978FF9 /* GLTestSpritesView.h */,
+				CC196B0E0FA765DC00978FF9 /* GLTestSpritesView.mm */,
+				CCBFF09F0FD5696500CB41AD /* GLTestSpriteBatchView.h */,
+				CCBFF0A00FD5696500CB41AD /* GLTestSpriteBatchView.mm */,
+				CC196B100FA765F100978FF9 /* GLTestLabelsView.h */,
+				CC196B110FA765F100978FF9 /* GLTestLabelsView.mm */,
+				0771D2090FD03B4800973211 /* GLTestBackgroundView.h */,
+				0771D20A0FD03B4800973211 /* GLTestBackgroundView.mm */,
+				077194B10FF3E98F0013870A /* GLTestCameraView.h */,
+				077194B20FF3E98F0013870A /* GLTestCameraView.mm */,
+				07719D0F1000FFFC0013870A /* GLTestHierarchyView.h */,
+				07719D101000FFFC0013870A /* GLTestHierarchyView.mm */,
+				CC89382210023AAF000B4A09 /* GLTestLineView.h */,
+				CC89382310023AAF000B4A09 /* GLTestLineView.mm */,
+				07719EC010036A520013870A /* GLTestWorldScaleView.h */,
+				07719EC110036A520013870A /* GLTestWorldScaleView.mm */,
+				078B7F34108785170090ACE2 /* GLTestModelView.h */,
+				078B7F35108785170090ACE2 /* GLTestModelView.mm */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		CCE514D00F9E7EDB00A34897 /* Electric2D */ = {
+			isa = PBXGroup;
+			children = (
+				CCE515040F9E827000A34897 /* Engine */,
+				CCE515050F9E827800A34897 /* Objects */,
+				CCE515060F9E827F00A34897 /* Utilities */,
+				CCE515000F9E815900A34897 /* GLView.h */,
+				CCE515010F9E815900A34897 /* GLView.mm */,
+				07840DB50FE8267600D99242 /* Electric2D.h */,
+			);
+			path = Electric2D;
+			sourceTree = "<group>";
+		};
+		CCE515040F9E827000A34897 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				CCE5153A0F9E832100A34897 /* GLEngine.h */,
+				CCE5153B0F9E832100A34897 /* GLEngine.mm */,
+				077196980FF4D8D80013870A /* GLEngineLayerTypes.h */,
+				077193100FF3BC530013870A /* Utilities */,
+				CCE515300F9E82F200A34897 /* Textures */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		CCE515050F9E827800A34897 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				077198140FF52DF40013870A /* Batch */,
+				07A3B6BF0FD6CFAD0037193E /* GLObjectTypes.h */,
+				CCE515460F9E834200A34897 /* GLObject.h */,
+				CCE515470F9E834200A34897 /* GLObject.mm */,
+				07719CA01000C1C30013870A /* GLObjectHierarchy.h */,
+				07719CA11000C1C30013870A /* GLObjectHierarchy.mm */,
+				CCE515480F9E834200A34897 /* GLImage.h */,
+				CCE515490F9E834200A34897 /* GLImage.mm */,
+				CCE5154A0F9E834200A34897 /* GLSprite.h */,
+				CCE5154B0F9E834200A34897 /* GLSprite.mm */,
+				CCE5154C0F9E834200A34897 /* GLLabel.h */,
+				CCE5154D0F9E834200A34897 /* GLLabel.mm */,
+				CC89377110020A7D000B4A09 /* GLLine.h */,
+				CC89377210020A7D000B4A09 /* GLLine.mm */,
+				078B7E80108753AB0090ACE2 /* GLModel.h */,
+				078B7E81108753AB0090ACE2 /* GLModel.mm */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		CCE515060F9E827F00A34897 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CCE515430F9E833700A34897 /* GLFPS.h */,
+				CCE515440F9E833700A34897 /* GLFPS.mm */,
+				CCE515400F9E832E00A34897 /* UIColor-Expanded.h */,
+				CCE515410F9E832E00A34897 /* UIColor-Expanded.m */,
+				CC453A990FCD637F00F8FCDC /* Maths.h */,
+				CC453A9A0FCD637F00F8FCDC /* Maths.mm */,
+				0771982C0FF53BF80013870A /* GLColors.h */,
+				CC29801C0F9F722300982D8E /* GLColor.h */,
+				CC29801D0F9F722300982D8E /* GLColor.mm */,
+				07D6ACEE0FF383330056AA3E /* GLCamera.h */,
+				07D6ACEF0FF383330056AA3E /* GLCamera.mm */,
+				077193500FF3C6450013870A /* GLBackground.h */,
+				077193510FF3C6450013870A /* GLBackground.mm */,
+				078B7F1110877D230090ACE2 /* GLVert.h */,
+				078CCAF711248EE600F68C40 /* ObjectPool.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CCE515300F9E82F200A34897 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				07AE1AAB108885080080982B /* Loaders */,
+				CCE515310F9E831200A34897 /* GLTexture.h */,
+				CCE515320F9E831200A34897 /* GLTexture.mm */,
+				CCE515330F9E831200A34897 /* GLTextureSprite.h */,
+				CCE515340F9E831200A34897 /* GLTextureSprite.mm */,
+				CCE515350F9E831200A34897 /* GLTextureBank.h */,
+				CCE515360F9E831200A34897 /* GLTextureBank.mm */,
+			);
+			path = Textures;
+			sourceTree = "<group>";
+		};
+		CCE5158D0F9E85B000A34897 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CCE5158E0F9E85B600A34897 /* Test */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CCE5158E0F9E85B600A34897 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				CC52A72F0FFA553200D9B81D /* EasyEnemy.png */,
+				07A3948C1088E3EF00B96A5C /* PVR_Perceptual_m_4.pvr */,
+				07A3948D1088E3EF00B96A5C /* PVR_Perceptual_2.pvr */,
+				07A3948E1088E3EF00B96A5C /* PVR_Perceptual_4.pvr */,
+				07A3948F1088E3EF00B96A5C /* PVR_Linear_2.pvr */,
+				07A394901088E3EF00B96A5C /* PVR_Linear_m_4.pvr */,
+				07A394911088E3EF00B96A5C /* PVR_Linear_m_2.pvr */,
+				07A394921088E3EF00B96A5C /* PVR_Linear_4.pvr */,
+				07A394931088E3EF00B96A5C /* PVR_Perceptual_m_2.pvr */,
+				078B81CB1088BF280090ACE2 /* EasyEnemyPVR_4x4_32.sprite */,
+				CC52A7690FFA586A00D9B81D /* EasyEnemy_4x4_32.sprite */,
+				CC36313F100B8FC000F560B8 /* EasyEnemy_4x4_32_Array.sprite */,
+				077198110FF518C40013870A /* TestSpot.png */,
+				0771980F0FF518B10013870A /* TestTarget.png */,
+				CCE515CC0F9E861100A34897 /* TestSprite_4x4_64.sprite */,
+				CCE515CD0F9E861200A34897 /* TestSprite_4x4_64.png */,
+				CCBFF0940FD566BB00CB41AD /* TestSpriteSquare_4x4_32.sprite */,
+				CCBFF0920FD5667D00CB41AD /* TestSpriteSquare_4x4_32.png */,
+				CCE515CE0F9E861200A34897 /* TestImageNoAlpha.png */,
+				07AE1B831088A8E30080982B /* TestImagePVR.pvr */,
+				CCE515CF0F9E861200A34897 /* TestImageAlpha.png */,
+				0771D2160FD0451D00973211 /* TestBackground.png */,
+				070172820FD4823300951C2B /* TestImageStar.png */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07840C720FE8099000D99242 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07840C9E0FE809F900D99242 /* GLEngine.h in Headers */,
+				07840CA00FE809F900D99242 /* GLRender.h in Headers */,
+				07840CA20FE809F900D99242 /* GLTexture.h in Headers */,
+				07840CA40FE809F900D99242 /* GLTextureSprite.h in Headers */,
+				07840CA60FE809F900D99242 /* GLTextureBank.h in Headers */,
+				07840CA80FE809F900D99242 /* GLObjectTypes.h in Headers */,
+				07840CA90FE809F900D99242 /* GLObject.h in Headers */,
+				07840CAB0FE809F900D99242 /* GLImage.h in Headers */,
+				07840CAD0FE809F900D99242 /* GLSprite.h in Headers */,
+				07840CAF0FE809F900D99242 /* GLLabel.h in Headers */,
+				07840CB10FE809F900D99242 /* GLImageBatch.h in Headers */,
+				07840CB30FE809F900D99242 /* GLSpriteBatch.h in Headers */,
+				07840CB50FE809F900D99242 /* GLFPS.h in Headers */,
+				07840CB70FE809F900D99242 /* UIColor-Expanded.h in Headers */,
+				07840CB90FE809F900D99242 /* GLColor.h in Headers */,
+				07840CBB0FE809F900D99242 /* Maths.h in Headers */,
+				07840CBD0FE809F900D99242 /* GLView.h in Headers */,
+				07840DB60FE8267600D99242 /* Electric2D.h in Headers */,
+				07D6ACF10FF383330056AA3E /* GLCamera.h in Headers */,
+				077193520FF3C6450013870A /* GLBackground.h in Headers */,
+				077195E80FF427400013870A /* GLCombindedVert.h in Headers */,
+				077196990FF4D8D80013870A /* GLEngineLayerTypes.h in Headers */,
+				077198230FF52E610013870A /* GLImageBatchPoint.h in Headers */,
+				0771982D0FF53BF80013870A /* GLColors.h in Headers */,
+				CC52A5C80FF8EDB800D9B81D /* GLRenderBatch.h in Headers */,
+				CC52A84A0FFA706E00D9B81D /* GLSpriteBatchPoint.h in Headers */,
+				07719CA31000C1C30013870A /* GLObjectHierarchy.h in Headers */,
+				CC89377410020A7D000B4A09 /* GLLine.h in Headers */,
+				078B7F2D10877F3A0090ACE2 /* GLVert.h in Headers */,
+				078B7F2E10877F550090ACE2 /* GLModel.h in Headers */,
+				07A394AF1088E90000B96A5C /* GLBasicTextureLoader.h in Headers */,
+				07A394B01088E90600B96A5C /* GLPVRTextureLoader.h in Headers */,
+				078CCB3C1124946900F68C40 /* ObjectPool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07840C750FE8099000D99242 /* libElectric2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07840C7C0FE8099C00D99242 /* Build configuration list for PBXNativeTarget "libElectric2D" */;
+			buildPhases = (
+				07840C720FE8099000D99242 /* Headers */,
+				07840C730FE8099000D99242 /* Sources */,
+				07840C740FE8099000D99242 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libElectric2D;
+			productName = libElectric2D;
+			productReference = 07840C760FE8099000D99242 /* libElectric2D.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1D6058900D05DD3D006BFB54 /* Electric2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Electric2D" */;
+			buildPhases = (
+				07AE1B5310889C460080982B /* Encode Images */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Electric2D;
+			productName = Electric2D;
+			productReference = 1D6058910D05DD3D006BFB54 /* Electric2D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Electric2D" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Electric2D */,
+				07840C750FE8099000D99242 /* libElectric2D */,
+				072D9D350FD69AB300DC0264 /* CreateSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				CCE515D00F9E861200A34897 /* TestSprite_4x4_64.sprite in Resources */,
+				CCE515D10F9E861200A34897 /* TestSprite_4x4_64.png in Resources */,
+				CCE515D20F9E861200A34897 /* TestImageNoAlpha.png in Resources */,
+				CCE515D30F9E861200A34897 /* TestImageAlpha.png in Resources */,
+				CCE516410F9E8D2500A34897 /* Electric2D_icon.png in Resources */,
+				CCE516450F9E8D8A00A34897 /* Default.png in Resources */,
+				0771D2170FD0451D00973211 /* TestBackground.png in Resources */,
+				070172830FD4823300951C2B /* TestImageStar.png in Resources */,
+				CCBFF0930FD5667D00CB41AD /* TestSpriteSquare_4x4_32.png in Resources */,
+				CCBFF1390FD56E3700CB41AD /* TestSpriteSquare_4x4_32.sprite in Resources */,
+				077198100FF518B10013870A /* TestTarget.png in Resources */,
+				077198120FF518C40013870A /* TestSpot.png in Resources */,
+				CC52A7300FFA553200D9B81D /* EasyEnemy.png in Resources */,
+				CC363140100B8FC000F560B8 /* EasyEnemy_4x4_32_Array.sprite in Resources */,
+				CC3C620B100B968D00CDE4D5 /* EasyEnemy_4x4_32.sprite in Resources */,
+				07AE1B841088A8E30080982B /* TestImagePVR.pvr in Resources */,
+				078B81CC1088BF280090ACE2 /* EasyEnemyPVR_4x4_32.sprite in Resources */,
+				07A394941088E3EF00B96A5C /* PVR_Perceptual_m_4.pvr in Resources */,
+				07A394951088E3EF00B96A5C /* PVR_Perceptual_2.pvr in Resources */,
+				07A394961088E3EF00B96A5C /* PVR_Perceptual_4.pvr in Resources */,
+				07A394971088E3EF00B96A5C /* PVR_Linear_2.pvr in Resources */,
+				07A394981088E3EF00B96A5C /* PVR_Linear_m_4.pvr in Resources */,
+				07A394991088E3EF00B96A5C /* PVR_Linear_m_2.pvr in Resources */,
+				07A3949A1088E3EF00B96A5C /* PVR_Linear_4.pvr in Resources */,
+				07A3949B1088E3EF00B96A5C /* PVR_Perceptual_m_2.pvr in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		072D9D340FD69AB300DC0264 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\nexec $SOURCE_ROOT/Scripts/CreateSDK.sh";
+		};
+		07AE1B5310889C460080982B /* Encode Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Data/Test/EasyEnemy.png",
+				"$(SRCROOT)/Data/Test/TestImageNoAlpha.png",
+			);
+			name = "Encode Images";
+			outputPaths = (
+				"$(SRCROOT)/Data/Test/EasyEnemy.pvr",
+				"$(SRCROOT)/Data/Test/TestImagePVR.pvr",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TEXTURE_TOOL=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/texturetool\n\nTEST_TEXTURE=$SRCROOT/Data/Test/EasyEnemy.png\n\n# $TEXTURE_TOOL -m -e PVRTC --bits-per-pixel-4 -o \"$SRCROOT/Images/Brick_mipmap_4.pvr\" -f PVR \"$SRCROOT/Images/Brick.png\"\n# $TEXTURE_TOOL -e PVRTC --bits-per-pixel-4 -o \"$SRCROOT/Images/Brick_4.pvr\" -f PVR \"$SRCROOT/Images/Brick.png\"\n\n$TEXTURE_TOOL -m -e PVRTC --channel-weighting-linear --bits-per-pixel-4 -o \"$SRCROOT/Data/Test/PVR_Linear_m_4.pvr\" -f PVR \"$TEST_TEXTURE\"\n$TEXTURE_TOOL -m -e PVRTC --channel-weighting-linear --bits-per-pixel-2 -o \"$SRCROOT/Data/Test/PVR_Linear_m_2.pvr\" -f PVR \"$TEST_TEXTURE\"\n\n$TEXTURE_TOOL -e PVRTC --channel-weighting-linear --bits-per-pixel-4 -o \"$SRCROOT/Data/Test/PVR_Linear_4.pvr\" -f PVR \"$TEST_TEXTURE\"\n$TEXTURE_TOOL -e PVRTC --channel-weighting-linear --bits-per-pixel-2 -o \"$SRCROOT/Data/Test/PVR_Linear_2.pvr\" -f PVR \"$TEST_TEXTURE\"\n\n$TEXTURE_TOOL -m -e PVRTC --channel-weighting-perceptual --bits-per-pixel-4 -o \"$SRCROOT/Data/Test/PVR_Perceptual_m_4.pvr\" -f PVR \"$TEST_TEXTURE\"\n$TEXTURE_TOOL -m -e PVRTC --channel-weighting-perceptual --bits-per-pixel-2 -o \"$SRCROOT/Data/Test/PVR_Perceptual_m_2.pvr\" -f PVR \"$TEST_TEXTURE\"\n\n$TEXTURE_TOOL -e PVRTC --channel-weighting-perceptual --bits-per-pixel-4 -o \"$SRCROOT/Data/Test/PVR_Perceptual_4.pvr\" -f PVR \"$TEST_TEXTURE\"\n$TEXTURE_TOOL -e PVRTC --channel-weighting-perceptual --bits-per-pixel-2 -o \"$SRCROOT/Data/Test/PVR_Perceptual_2.pvr\" -f PVR \"$TEST_TEXTURE\"\n\n$TEXTURE_TOOL -e PVRTC --bits-per-pixel-4 -o \"$SRCROOT/Data/Test/TestImagePVR.pvr\" -f PVR \"$SRCROOT/Data/Test/TestImageNoAlpha.png\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07840C730FE8099000D99242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07840C9F0FE809F900D99242 /* GLEngine.mm in Sources */,
+				07840CA10FE809F900D99242 /* GLRender.mm in Sources */,
+				07840CA30FE809F900D99242 /* GLTexture.mm in Sources */,
+				07840CA50FE809F900D99242 /* GLTextureSprite.mm in Sources */,
+				07840CA70FE809F900D99242 /* GLTextureBank.mm in Sources */,
+				07840CAA0FE809F900D99242 /* GLObject.mm in Sources */,
+				07840CAC0FE809F900D99242 /* GLImage.mm in Sources */,
+				07840CAE0FE809F900D99242 /* GLSprite.mm in Sources */,
+				07840CB00FE809F900D99242 /* GLLabel.mm in Sources */,
+				07840CB20FE809F900D99242 /* GLImageBatch.mm in Sources */,
+				07840CB40FE809F900D99242 /* GLSpriteBatch.mm in Sources */,
+				07840CB60FE809F900D99242 /* GLFPS.mm in Sources */,
+				07840CB80FE809F900D99242 /* UIColor-Expanded.m in Sources */,
+				07840CBA0FE809F900D99242 /* GLColor.mm in Sources */,
+				07840CBC0FE809F900D99242 /* Maths.mm in Sources */,
+				07840CBE0FE809F900D99242 /* GLView.mm in Sources */,
+				07D6ACF20FF383330056AA3E /* GLCamera.mm in Sources */,
+				077193530FF3C6450013870A /* GLBackground.mm in Sources */,
+				CC52A5C90FF8EDB800D9B81D /* GLRenderBatch.mm in Sources */,
+				07719CA41000C1C30013870A /* GLObjectHierarchy.mm in Sources */,
+				CC89377510020A7D000B4A09 /* GLLine.mm in Sources */,
+				078B7F2F10877F5B0090ACE2 /* GLModel.mm in Sources */,
+				07A394B11088E90C00B96A5C /* GLBasicTextureLoader.mm in Sources */,
+				07A394B21088E91200B96A5C /* GLPVRTextureLoader.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Electric2DAppDelegate.m in Sources */,
+				CCE514CE0F9E7E9C00A34897 /* GLTestGeneralView.mm in Sources */,
+				CCE515020F9E815900A34897 /* GLView.mm in Sources */,
+				CCE515370F9E831200A34897 /* GLTexture.mm in Sources */,
+				CCE515380F9E831200A34897 /* GLTextureSprite.mm in Sources */,
+				CCE515390F9E831200A34897 /* GLTextureBank.mm in Sources */,
+				CCE5153E0F9E832100A34897 /* GLEngine.mm in Sources */,
+				CCE5153F0F9E832100A34897 /* GLRender.mm in Sources */,
+				CCE515420F9E832E00A34897 /* UIColor-Expanded.m in Sources */,
+				CCE515450F9E833700A34897 /* GLFPS.mm in Sources */,
+				CCE5154E0F9E834200A34897 /* GLObject.mm in Sources */,
+				CCE5154F0F9E834200A34897 /* GLImage.mm in Sources */,
+				CCE515500F9E834200A34897 /* GLSprite.mm in Sources */,
+				CCE515510F9E834200A34897 /* GLLabel.mm in Sources */,
+				CC29801E0F9F722300982D8E /* GLColor.mm in Sources */,
+				CC2980B80FA21FD000982D8E /* GLImageBatch.mm in Sources */,
+				CC2982A90FA73D3D00982D8E /* Electric2DViewController.mm in Sources */,
+				CC196B0C0FA765AF00978FF9 /* GLTestImagesView.mm in Sources */,
+				CC196B0F0FA765DC00978FF9 /* GLTestSpritesView.mm in Sources */,
+				CC196B120FA765F100978FF9 /* GLTestLabelsView.mm in Sources */,
+				CC453A9B0FCD637F00F8FCDC /* Maths.mm in Sources */,
+				0771D20B0FD03B4800973211 /* GLTestBackgroundView.mm in Sources */,
+				0701725C0FD4782900951C2B /* GLTestImageBatchView.mm in Sources */,
+				CCBFF06D0FD5409900CB41AD /* GLSpriteBatch.mm in Sources */,
+				CCBFF0A10FD5696500CB41AD /* GLTestSpriteBatchView.mm in Sources */,
+				07D6ACF00FF383330056AA3E /* GLCamera.mm in Sources */,
+				077193540FF3C6450013870A /* GLBackground.mm in Sources */,
+				077194B30FF3E98F0013870A /* GLTestCameraView.mm in Sources */,
+				CC52A5CA0FF8EDB800D9B81D /* GLRenderBatch.mm in Sources */,
+				07719CA21000C1C30013870A /* GLObjectHierarchy.mm in Sources */,
+				07719D111000FFFC0013870A /* GLTestHierarchyView.mm in Sources */,
+				CC89377310020A7D000B4A09 /* GLLine.mm in Sources */,
+				CC89382410023AAF000B4A09 /* GLTestLineView.mm in Sources */,
+				07719EC210036A520013870A /* GLTestWorldScaleView.mm in Sources */,
+				078B7E82108753AB0090ACE2 /* GLModel.mm in Sources */,
+				078B7F36108785170090ACE2 /* GLTestModelView.mm in Sources */,
+				07AE1AAE1088853F0080982B /* GLBasicTextureLoader.mm in Sources */,
+				07AE1AB11088878F0080982B /* GLPVRTextureLoader.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		072D9D360FD69AB300DC0264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Electric2D_sdk;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		072D9D370FD69AB300DC0264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = Electric2D_sdk;
+			};
+			name = Release;
+		};
+		07840C770FE8099000D99242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/Electric2D;
+				PRODUCT_NAME = Electric2D;
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/Electric2D;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		07840C780FE8099000D99242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				PREBINDING = NO;
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/Electric2D;
+				PRODUCT_NAME = Electric2D;
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/Electric2D;
+				SDKROOT = iphoneos4.1;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Electric2D_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Electric2D;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Electric2D_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = Electric2D;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		072D9D380FD69AD100DC0264 /* Build configuration list for PBXAggregateTarget "CreateSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072D9D360FD69AB300DC0264 /* Debug */,
+				072D9D370FD69AB300DC0264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07840C7C0FE8099C00D99242 /* Build configuration list for PBXNativeTarget "libElectric2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07840C770FE8099000D99242 /* Debug */,
+				07840C780FE8099000D99242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Electric2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Electric2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
