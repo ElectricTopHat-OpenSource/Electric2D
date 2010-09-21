@@ -66,8 +66,6 @@
 		07840CB40FE809F900D99242 /* GLSpriteBatch.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCBFF06C0FD5409900CB41AD /* GLSpriteBatch.mm */; };
 		07840CB50FE809F900D99242 /* GLFPS.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE515430F9E833700A34897 /* GLFPS.h */; settings = {ATTRIBUTES = (); }; };
 		07840CB60FE809F900D99242 /* GLFPS.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515440F9E833700A34897 /* GLFPS.mm */; };
-		07840CB70FE809F900D99242 /* UIColor-Expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE515400F9E832E00A34897 /* UIColor-Expanded.h */; settings = {ATTRIBUTES = (); }; };
-		07840CB80FE809F900D99242 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE515410F9E832E00A34897 /* UIColor-Expanded.m */; };
 		07840CB90FE809F900D99242 /* GLColor.h in Headers */ = {isa = PBXBuildFile; fileRef = CC29801C0F9F722300982D8E /* GLColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07840CBA0FE809F900D99242 /* GLColor.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC29801D0F9F722300982D8E /* GLColor.mm */; };
 		07840CBB0FE809F900D99242 /* Maths.h in Headers */ = {isa = PBXBuildFile; fileRef = CC453A990FCD637F00F8FCDC /* Maths.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -139,7 +137,6 @@
 		CCE515390F9E831200A34897 /* GLTextureBank.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515360F9E831200A34897 /* GLTextureBank.mm */; };
 		CCE5153E0F9E832100A34897 /* GLEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE5153B0F9E832100A34897 /* GLEngine.mm */; };
 		CCE5153F0F9E832100A34897 /* GLRender.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE5153D0F9E832100A34897 /* GLRender.mm */; };
-		CCE515420F9E832E00A34897 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE515410F9E832E00A34897 /* UIColor-Expanded.m */; };
 		CCE515450F9E833700A34897 /* GLFPS.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515440F9E833700A34897 /* GLFPS.mm */; };
 		CCE5154E0F9E834200A34897 /* GLObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515470F9E834200A34897 /* GLObject.mm */; };
 		CCE5154F0F9E834200A34897 /* GLImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCE515490F9E834200A34897 /* GLImage.mm */; };
@@ -264,8 +261,6 @@
 		CCE5153B0F9E832100A34897 /* GLEngine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLEngine.mm; sourceTree = "<group>"; };
 		CCE5153C0F9E832100A34897 /* GLRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLRender.h; sourceTree = "<group>"; };
 		CCE5153D0F9E832100A34897 /* GLRender.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLRender.mm; sourceTree = "<group>"; };
-		CCE515400F9E832E00A34897 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
-		CCE515410F9E832E00A34897 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
 		CCE515430F9E833700A34897 /* GLFPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFPS.h; sourceTree = "<group>"; };
 		CCE515440F9E833700A34897 /* GLFPS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLFPS.mm; sourceTree = "<group>"; };
 		CCE515460F9E834200A34897 /* GLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLObject.h; sourceTree = "<group>"; };
@@ -538,8 +533,6 @@
 			children = (
 				CCE515430F9E833700A34897 /* GLFPS.h */,
 				CCE515440F9E833700A34897 /* GLFPS.mm */,
-				CCE515400F9E832E00A34897 /* UIColor-Expanded.h */,
-				CCE515410F9E832E00A34897 /* UIColor-Expanded.m */,
 				CC453A990FCD637F00F8FCDC /* Maths.h */,
 				CC453A9A0FCD637F00F8FCDC /* Maths.mm */,
 				0771982C0FF53BF80013870A /* GLColors.h */,
@@ -627,7 +620,6 @@
 				07840CB10FE809F900D99242 /* GLImageBatch.h in Headers */,
 				07840CB30FE809F900D99242 /* GLSpriteBatch.h in Headers */,
 				07840CB50FE809F900D99242 /* GLFPS.h in Headers */,
-				07840CB70FE809F900D99242 /* UIColor-Expanded.h in Headers */,
 				07840CB90FE809F900D99242 /* GLColor.h in Headers */,
 				07840CBB0FE809F900D99242 /* Maths.h in Headers */,
 				07840CBD0FE809F900D99242 /* GLView.h in Headers */,
@@ -801,7 +793,6 @@
 				07840CB20FE809F900D99242 /* GLImageBatch.mm in Sources */,
 				07840CB40FE809F900D99242 /* GLSpriteBatch.mm in Sources */,
 				07840CB60FE809F900D99242 /* GLFPS.mm in Sources */,
-				07840CB80FE809F900D99242 /* UIColor-Expanded.m in Sources */,
 				07840CBA0FE809F900D99242 /* GLColor.mm in Sources */,
 				07840CBC0FE809F900D99242 /* Maths.mm in Sources */,
 				07840CBE0FE809F900D99242 /* GLView.mm in Sources */,
@@ -829,7 +820,6 @@
 				CCE515390F9E831200A34897 /* GLTextureBank.mm in Sources */,
 				CCE5153E0F9E832100A34897 /* GLEngine.mm in Sources */,
 				CCE5153F0F9E832100A34897 /* GLRender.mm in Sources */,
-				CCE515420F9E832E00A34897 /* UIColor-Expanded.m in Sources */,
 				CCE515450F9E833700A34897 /* GLFPS.mm in Sources */,
 				CCE5154E0F9E834200A34897 /* GLObject.mm in Sources */,
 				CCE5154F0F9E834200A34897 /* GLImage.mm in Sources */,

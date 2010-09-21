@@ -8,7 +8,47 @@
  */
 
 #include "GLColor.h"
-#import "UIColor-Expanded.h"
+
+#pragma mark ---------------------------------------------------------
+#pragma mark C Functions
+#pragma mark ---------------------------------------------------------
+
+BOOL getRGBAComponents( UIColor * _color, CGFloat * _red, CGFloat * _green, CGFloat * _blue, CGFloat * _alpha )
+{
+	CGFloat r,g,b,a = 1.0f;
+	
+	if ( _color )
+	{
+		const CGFloat *components = CGColorGetComponents(_color.CGColor);
+		switch ( CGColorSpaceGetModel(CGColorGetColorSpace(_color.CGColor)) )
+		{
+			case kCGColorSpaceModelMonochrome:
+				r = g = b = components[0];
+				a = components[1];
+				break;
+			case kCGColorSpaceModelRGB:
+				r = components[0];
+				g = components[1];
+				b = components[2];
+				a = components[3];
+				break;
+			default:	// We don't know how to handle this model
+				return NO;
+		}
+	}
+	
+	if (_red) *_red = r;
+	if (_green) *_green = g;
+	if (_blue) *_blue = b;
+	if (_alpha) *_alpha = a;
+	
+	return YES;
+}
+
+#pragma mark ---------------------------------------------------------
+#pragma mark End C Functions
+#pragma mark ---------------------------------------------------------
+
 
 #pragma mark ---------------------------------------------------------
 #pragma mark Constructor / Destructor
@@ -30,10 +70,7 @@ GLColor::GLColor(float _red, float _green, float _blue, float _alpha)
 // --------------------------------------------------
 GLColor::GLColor(UIColor * _color)
 {
-	m_red = _color.red;
-	m_green = _color.green;
-	m_blue = _color.blue;
-	m_alpha = _color.alpha;
+	getRGBAComponents( _color, &m_red, &m_green, &m_blue, &m_alpha );
 }
 
 // --------------------------------------------------
@@ -56,10 +93,7 @@ GLColor::~GLColor()
 // --------------------------------------------------
 GLColor & GLColor::operator=(const UIColor * _color)
 {
-	m_red = _color.red;
-	m_green = _color.green;
-	m_blue = _color.blue;
-	m_alpha = _color.alpha;	
+	getRGBAComponents( _color, &m_red, &m_green, &m_blue, &m_alpha );
 	return *this;
 }
 
@@ -68,10 +102,7 @@ GLColor & GLColor::operator=(const UIColor * _color)
 // --------------------------------------------------
 void GLColor::setColor(const UIColor * _color)
 {
-	m_red = _color.red;
-	m_green = _color.green;
-	m_blue = _color.blue;
-	m_alpha = _color.alpha;
+	getRGBAComponents( _color, &m_red, &m_green, &m_blue, &m_alpha );
 }
 
 #pragma mark ---------------------------------------------------------

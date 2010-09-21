@@ -9,7 +9,6 @@
 
 #import "GLEngine.h"
 #import "GLRender.h" 
-#import "UIColor-Expanded.h"
 
 #pragma mark ---------------------------------------------------------
 #pragma mark === Constructor / Destructor Functions  ===
@@ -36,15 +35,8 @@ GLEngine::GLEngine(CAEAGLLayer * _layer, UIColor * _clearColor, eGLEngineOrienta
 	// set the current Context
 	[EAGLContext setCurrentContext:m_context];
 	
-	if ( _clearColor && _clearColor.canProvideRGBComponents )
-	{
-		glClearColor(_clearColor.red, _clearColor.green, _clearColor.blue, 0.0f);
-	}
-	else
-	{
-		// deafault the clear color to black
-		glClearColor(1.0f, 1.0f, 1.0f, 0.0f);
-	}
+	GLColor clearColor( _clearColor );
+	glClearColor(clearColor.red(), clearColor.green(), clearColor.blue(), 0.0f);
 	
 	m_glRender = new GLRender();
 	
