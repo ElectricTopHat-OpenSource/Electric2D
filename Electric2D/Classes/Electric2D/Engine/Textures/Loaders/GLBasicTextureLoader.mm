@@ -110,7 +110,7 @@ Boolean GLBasicTextureLoader::load( const NSString * _path, GLuint & _bindID, CG
 			
 			// After you create the context, you can draw the sprite image to the context.
 			CGRect frame = CGRectMake(0, 0, width, height);
-			//CGContextClearRect(imageContext, frame);
+			CGContextClearRect(imageContext, frame);
 			CGContextDrawImage(imageContext, frame, imageref);
 			
 			//Convert "RRRRRRRRRGGGGGGGGBBBBBBBBAAAAAAAA" to "RRRRRGGGGGGBBBBB"

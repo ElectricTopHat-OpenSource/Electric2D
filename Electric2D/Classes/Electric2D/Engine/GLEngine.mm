@@ -25,7 +25,7 @@ GLEngine::GLEngine(CAEAGLLayer * _layer, UIColor * _clearColor, eGLEngineOrienta
 	m_layer.opaque = YES;
 	m_layer.drawableProperties = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:NO], 
 																		    kEAGLDrawablePropertyRetainedBacking, 
-																			kEAGLColorFormatRGBA8, 
+																			kEAGLColorFormatRGB565, 
 																			kEAGLDrawablePropertyColorFormat, 
 																			nil];
 	
@@ -86,12 +86,14 @@ Boolean GLEngine::createFrameBuffer()
 {
 	if ( m_buffersCreated == NO )
 	{
-		glGenFramebuffersOES(1, &m_viewFramebuffer);
 		glGenRenderbuffersOES(1, &m_viewRenderbuffer);
-		
-		glBindFramebufferOES(GL_FRAMEBUFFER_OES, m_viewFramebuffer);
 		glBindRenderbufferOES(GL_RENDERBUFFER_OES, m_viewRenderbuffer);
+		
 		[m_context renderbufferStorage:GL_RENDERBUFFER_OES fromDrawable:m_layer];
+		
+		glGenFramebuffersOES(1, &m_viewFramebuffer);
+		glBindFramebufferOES(GL_FRAMEBUFFER_OES, m_viewFramebuffer);
+		
 		glFramebufferRenderbufferOES(GL_FRAMEBUFFER_OES, GL_COLOR_ATTACHMENT0_OES, GL_RENDERBUFFER_OES, m_viewRenderbuffer);
 		
 		glGetRenderbufferParameterivOES(GL_RENDERBUFFER_OES, GL_RENDERBUFFER_WIDTH_OES, &m_backingWidth);
@@ -162,21 +164,12 @@ void GLEngine::rebindContext()
 // Render the current scene
 // --------------------------------------------------
 void GLEngine::render()
-{
-	// set the context
-	[EAGLContext setCurrentContext:m_context];
-	
-	// bind the view buffer
-	glBindFramebufferOES(GL_FRAMEBUFFER_OES, m_viewFramebuffer);
-	
-	glMatrixMode(GL_MODELVIEW);	
-    glLoadIdentity();
+{	
+	//glMatrixMode(GL_MODELVIEW);	
+    //glLoadIdentity();
 	
 	// Render objects
 	m_glRender->render();
-	
-	// bind the render buffer
-	glBindRenderbufferOES(GL_RENDERBUFFER_OES, m_viewRenderbuffer);
 	
 	// force the reder buffer to be displayed
     [m_context presentRenderbuffer:GL_RENDERBUFFER_OES];
