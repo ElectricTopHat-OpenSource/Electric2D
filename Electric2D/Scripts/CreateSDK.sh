@@ -16,8 +16,8 @@ VERS=`pl < $SOURCE_ROOT/Info.plist | grep CFBundleVersion | sed -e 's/.*= "//' -
 libName="libElectric2D"
 sdkName="Electric2D"
 
-IPHONE_SDK=4.0
-IPHONESIM_SDK=4.0
+IPHONE_SDK=4.2
+IPHONESIM_SDK=4.2
 
 PROJECT_HEADERS_PATH=$SOURCE_ROOT/Classes/Electric2D
 
